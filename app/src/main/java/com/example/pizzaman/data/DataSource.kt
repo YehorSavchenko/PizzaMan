@@ -5,7 +5,7 @@ import com.example.pizzaman.model.PizzaItems
 
 class DataSource() {
     fun loadPizzaList(): List<PizzaItems> {
-        return listOf<PizzaItems>(
+        return listOf(
             PizzaItems(R.string.affirmation1, R.drawable.image1),
             PizzaItems(R.string.affirmation2, R.drawable.image2),
             PizzaItems(R.string.affirmation3, R.drawable.image3),
