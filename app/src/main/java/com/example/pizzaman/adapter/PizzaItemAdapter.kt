@@ -19,7 +19,8 @@ class PizzaItemAdapter(
     // you provide access to all the views for a data item in a view holder.
     // Each data item is just an Affirmation object.
     class ItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-        val textView: TextView = view.findViewById(R.id.item_title)
+        val nameTextView: TextView = view.findViewById(R.id.item_title)
+        val priceTextView: TextView = view.findViewById(R.id.item_price)
         val imageView: ImageView = view.findViewById(R.id.item_image)
     }
 
@@ -39,7 +40,8 @@ class PizzaItemAdapter(
      */
     override fun onBindViewHolder(holder: ItemViewHolder, position: Int) {
         val item = dataset[position]
-        holder.textView.text = context.resources.getString(item.stringResourceId)
+        holder.nameTextView.text = context.resources.getString(item.stringResourceId)
+        holder.priceTextView.text = context.resources.getString(R.string.price, 20)
         holder.imageView.setImageResource(item.imageResourceID)
     }
 

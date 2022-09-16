@@ -2,19 +2,17 @@
     <string name="app_name">PizzaMan</string>
     <string name="create_order">Create Order</string>
     <string name="settings">Settings</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="pizza1">Cheese Pizza</string>
+    <string name="pizza2">Veggie Pizza</string>
+    <string name="pizza3">Pepperoni Pizza</string>
+    <string name="pizza4">Meat Pizza</string>
+    <string name="pizza5">Margherita Pizza</string>
+    <string name="pizza6">BBQ Chicken Pizza</string>
+    <string name="pizza7">Hawaiian Pizza</string>
+    <string name="pizza8">Buffalo Pizza</string>
+    <string name="pizza9">Supreme Pizza</string>
+    <string name="pizza10">The Works Pizza</string>
 
-
-    <string name="affirmation1">I am strong.</string>
-    <string name="affirmation2">I believe in myself.</string>
-    <string name="affirmation3">Each day is a new opportunity to grow and be a better version of myself.</string>
-    <string name="affirmation4">Every challenge in my life is an opportunity to learn from.</string>
-    <string name="affirmation5">I have so much to be grateful for.</string>
-    <string name="affirmation6">Good things are always coming into my life.</string>
-    <string name="affirmation7">New opportunities await me at every turn.</string>
-    <string name="affirmation8">I have the courage to follow my heart.</string>
-    <string name="affirmation9">Things will unfold at precisely the right time.</string>
-    <string name="affirmation10">I will be present in all the moments that this day brings.</string>
+    <string name="price">Price: %d$</string>
 </resources>
