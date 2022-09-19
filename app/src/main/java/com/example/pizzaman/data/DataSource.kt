@@ -4,6 +4,8 @@ import com.example.pizzaman.R
 import com.example.pizzaman.model.PizzaItems
 
 class DataSource() {
+    private val PRICE_PER_PIZZA = 15.00
+    val pricePerPizza = PRICE_PER_PIZZA
     fun loadPizzaList(): List<PizzaItems> {
         return listOf(
             PizzaItems(R.string.pizza1, R.drawable.image1),
