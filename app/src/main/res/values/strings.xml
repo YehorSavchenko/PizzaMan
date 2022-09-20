@@ -14,5 +14,5 @@
     <string name="pizza9">Supreme Pizza</string>
     <string name="pizza10">The Works Pizza</string>
 
-    <string name="price">Price: %d$</string>
+    <string name="price">Price: %.2f</string>
 </resources>

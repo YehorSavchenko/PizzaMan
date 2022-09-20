@@ -31,6 +31,11 @@ class StartFragment : Fragment() {
         binding?.startFragment = this
     }
 
+    override fun onDestroyView() {
+        super.onDestroyView()
+        binding = null
+    }
+
     fun orderPizza() {
         findNavController().navigate(R.id.action_startFragment_to_orderFragment)
     }
